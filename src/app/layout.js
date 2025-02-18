@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import './styles.css';
+import "./styles.css";
 
 function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>
-        {children}
-    <footer>Copyright RII Inc.</footer>
-      </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body>
+				{children}
+				<footer>Copyright RII Inc.🍦</footer>
+			</body>
+		</html>
+	);
 }
 
 export default RootLayout;
